@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main-div{
+    background-color: green;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50px;
+}
+h1{
+    color: yellowgreen;
+}
+h2{
+    color: white;
+}
+.inner-div{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    border: 20px solid rgb(4, 161, 4);
+    border-radius: 10px 10px 0 0;
+    text-size-adjust: 20px;
+}
+textarea{
+    background-color: yellowgreen;
+    border: none;
+}
+#btn{
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: green;
+}
